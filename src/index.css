@@ -125,7 +125,8 @@
   }
 
   .image-reveal img {
-    @apply scale-110 transition-transform duration-[1.2s];
+    @apply scale-110 transition-transform;
+    transition-duration: 1.2s;
     transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
   }
 
